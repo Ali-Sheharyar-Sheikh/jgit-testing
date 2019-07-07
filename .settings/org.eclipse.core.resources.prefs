@@ -2,4 +2,5 @@ eclipse.preferences.version=1
 encoding//src/branchTesting.java=UTF-8
 encoding//src/checkoutTesting.java=UTF-8
 encoding//src/commitTesting.java=UTF-8
+encoding//src/mergeTesting.java=UTF-8
 encoding//src/tagTesting.java=UTF-8

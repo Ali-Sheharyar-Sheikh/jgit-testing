@@ -1,11 +1,9 @@
 import java.io.File;
 
 import org.eclipse.jgit.api.Git;
-import org.eclipse.jgit.lib.Repository;
-import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 
 
-public class mainClass {
+public class cloneTesting {
 
 	public static void main(String[] args) {
 

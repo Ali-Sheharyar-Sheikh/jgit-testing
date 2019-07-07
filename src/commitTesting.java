@@ -11,13 +11,8 @@ public class commitTesting {
 	public static void main(String[] args) throws IOException, IllegalStateException, GitAPIException
 	{
 		Git git = Git.open( new File( "./java-new-repo/.git" ) );
-		org.eclipse.jgit.api.AddCommand cmd = git.add();
-		cmd.addFilepattern("testfile2");
-		cmd.call();
-
-		org.eclipse.jgit.api.CommitCommand commitCmd = git.commit();
-		commitCmd.setAuthor("author", "author@something");
-		commitCmd.setMessage("commit 2 message");
-		commitCmd.call();
+		git.add().addFilepattern("testfile2").call();
+		git.commit().setAuthor("author", "author@something").setMessage("commit 2 message").call();
+		System.out.println("commit successfull!");
 	}
 }
