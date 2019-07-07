@@ -12,12 +12,12 @@ public class commitTesting {
 	{
 		Git git = Git.open( new File( "./java-new-repo/.git" ) );
 		org.eclipse.jgit.api.AddCommand cmd = git.add();
-		cmd.addFilepattern("testfile");
+		cmd.addFilepattern("testfile2");
 		cmd.call();
 
 		org.eclipse.jgit.api.CommitCommand commitCmd = git.commit();
 		commitCmd.setAuthor("author", "author@something");
-		commitCmd.setMessage("commit message");
+		commitCmd.setMessage("commit 2 message");
 		commitCmd.call();
 	}
 }

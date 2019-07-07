@@ -28,7 +28,7 @@ public class CreateNewRepository {
 		// create the directory
 		try  
 		{
-			Git git = Git.init().setDirectory(new File("./java-new-repo1/")).call();
+			Git git = Git.init().setDirectory(new File("./java-new-repo/")).call();
 			System.out.println("Having repository: " + git.getRepository().getDirectory());
 			
 			Status status = git.status().call();
