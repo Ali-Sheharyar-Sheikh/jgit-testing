@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/DeveloperStudio/plugins/org.eclipse.jgit-5.4.0.201906121030-r.jar"/>
-	<classpathentry kind="lib" path="D:/Share/eclipse-java-luna-SR1a-win32-x86_64/eclipse/plugins/org.slf4j.api_1.7.2.v20121108-1250.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Elixir Technologies/Tango/server/patching-tools/lib/jgit.jar"/>
+	<classpathentry kind="lib" path="C:/DeveloperStudio/plugins/com.jcraft.jsch_0.1.50.v201403120620.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
